@@ -33,7 +33,7 @@ public class SnapMediationAdapter extends RtbAdapter {
       @NonNull SignalCallbacks signalCallbacks) {
     // TODO: Start signal generation and callback SignalCallbacks when the signal generation
     //  finishes or fails.
-    signalCallbacks.onSuccess("");
+    signalCallbacks.onSuccess("1");
   }
 
   @Override
